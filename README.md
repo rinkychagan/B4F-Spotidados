@@ -1,1 +1,1 @@
-Group project done during Bytes4Future! :)
+Group projects done during Bytes4Future! :)
