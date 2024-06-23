@@ -1,0 +1,217 @@
+/* Componentes Globais */
+/* Sets */
+/* TempSet */
+
+
+
+.TempBtn {
+  display: flex;
+  margin-left: 250px;
+  padding-top:15px;
+}
+
+.TempBtn button {
+  padding: 16px 19px 15px 19px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #fff; /* Cor do texto quando não selecionado */
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.TempBtn button.selected {
+  display: flex;
+  padding: 16px 19px 15px 19px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background-color: #3c00e4; /* Cor de fundo quando selecionado */
+  color: #fff; /* Cor do texto quando selecionado */
+}
+
+/* ListaSetBtn */
+
+.ListaSetBtn {
+  margin-left: 250px;
+  display: flex;
+}
+
+.ListaSetBtn button {
+  padding: 16px 19px 15px 19px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #fff; /* Cor do texto quando não selecionado */
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ListaSetBtn button.selected {
+  padding: 16px 19px 15px 19px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background-color: #3c00e4; /* Cor de fundo quando selecionado */
+  color: #fff; /* Cor do texto quando selecionado */
+}
+
+/* ArtistiPage */
+/* ArtistSection */
+
+.ArtistSection {
+  background: linear-gradient(180deg, #6ea6ea 5.09%, #121212 43.28%);
+  width: 100%;
+  height: 365.833px;
+  flex-shrink: 0;
+}
+
+.ArtistDiv {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 29.167px;
+  margin-left: 230px;
+}
+
+.ArtistImg img {
+  display: flex;
+  width: 247.5px;
+  height: 247.5px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 29px;
+  margin-top: 89px;
+}
+
+.ArtistTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ArtistTitle h1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 101.667px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+
+/* StatArtist */
+.StatArtist {
+  width: 100%;  
+  margin: 20px 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.StArtTitle h1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.StatArtistDiv {
+  width: 80%;
+  display: flex;
+  padding: 45px; /* Ajuste conforme necessário */
+  border-radius: 6px;
+  background: linear-gradient(350deg, #3c00e4 23.88%, #21007e 57.25%);
+  justify-content: flex-start;
+  gap: 200px;
+}
+
+.EstacaoTitle,
+.TopTitle,
+.PorctTitle {
+  margin: 10px 10px;
+  gap: 50px; /* Ajuste conforme necessário */
+}
+
+.EstacaoTitle h3,
+.TopTitle h3,
+.PorctTitle h3 {
+  color: #c0afd0;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 100%; /* 23px */
+  padding-bottom: 15px;
+}
+
+.EstacaoTitle h4,
+.TopTitle h4,
+.PorctTitle h4 {
+  color: #9befe2;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 100%; /* 52.139px */
+}
+
+/* StatisticPage */
+
+.StatGerais {
+  width: 80%;
+  margin: 20px 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: linear-gradient(350deg, #3c00e4 23.88%, #21007e 57.25%);
+  padding: 45px; /* Ajuste conforme necessário */
+  border-radius: 6px;
+}
+
+.StatGerais h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px; /* Espaçamento inferior entre o título e o conteúdo */
+}
+
+.StatTotais,
+.StatTemporais {
+  width: 100%;
+  margin-top:  50px;
+}
+
+.StatTotaisTitle,
+.StatTemporaisTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.StatTotaisTitle > div,
+.StatTemporaisTitle > div {
+  flex: 1; /* Distribui o espaço igualmente entre as divs */
+}
+
+.StatTotaisTitle h3,
+.StatTemporaisTitle h3 {
+  color: #c0afd0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.StatTotaisTitle h2,
+.StatTemporaisTitle h2 {
+  color: #9befe2;
+  font-size: 40px;
+  font-weight: 700;
+}

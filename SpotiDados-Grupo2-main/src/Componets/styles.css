@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  list-style-type: none;
+}
+
+body {
+  background-color: #211d1d;
+}
+
+/* NavBar */
+
+hr {
+  border-color: #2b2929;
+  background-color: #0c0c0c;
+}
+
+.tab_line {
+  margin-top: 20px;
+  margin-right: 20px;
+  border-color: #2b2929;
+  background-color: #0c0c0c;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+.NavUL {
+  margin-top: 50px;
+}
+
+.navLI {
+  list-style-type: none;
+  line-height: 40px;
+  color: #8c8a8a;
+  font-weight: 600;
+}
+
+.navLI:hover {
+  color: whitesmoke;
+}
+
+.navbar {
+  background-color: #090707;
+  width: 200px;
+  height: 950px;
+}
+
+.logos {
+  margin-top: 15px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+
+.logoEstatistica {
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Playlist */
+
+.infos {
+  color: #8c8a8a;
+  margin-top: 40px;
+  margin-left: 90px;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.line {
+  color: #111111;
+  margin-top: 10px;
+  margin-left: 80px;
+  width: 93%;
+  border-color: #2b2929;
+  background-color: #0c0c0c;
+}
+
+.playlistDIV {
+  margin-left: 200px;
+}
+
+.infoDaMusica {
+  width: 95%;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.infoDaMusica:hover {
+  background-color: #2b2929;
+}
+
+.nomeMusica {
+  color: whitesmoke;
+  font-weight: 700;
+}
+
+.nomeArtista {
+  color: #b3b3b3;
+}
+
+.nomeArtista:hover {
+  text-decoration: underline;
+}
+
+.artistaEAlbum {
+  margin-top: 5px;
+  color: #b3b3b3;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.nomeAlbum {
+  color: #b3b3b3;
+}
+
+.nomeAlbum:hover {
+  text-decoration: underline;
+}
+
+.ordem {
+  color: #b3b3b3;
+}
+
+/*Top Artista */
+
+.Top_Artista {
+  color: white;
+  font-weight: 700;
+}
+
+.Top_Artista:hover {
+  text-decoration: underline;
+}
+
+/*Top Albuns*/
+
+.nomeDoAlbum {
+  color: white;
+  font-weight: 700;
+}
+
+.nomeDoAlbum:hover {
+  text-decoration: underline;
+}
+
+.artistaDoAlbum {
+  color: #b3b3b3;
+  font-size: 13px;
+}
+
+.artistaDoAlbum:hover {
+  text-decoration: underline;
+}
+
+
